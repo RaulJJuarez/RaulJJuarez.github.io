@@ -1,0 +1,209 @@
+@charset "utf-8";
+@import url("../webfonts/Gendis_Script_Test/stylesheet.css");
+@import url("../webfonts/Lato_Light/stylesheet.css");
+
+
+
+/* CSS Document */
+body{
+	background-image:url(../medios/back.png);
+	background-size:10px;
+	background-position: center;
+    background-color:#47517C;
+    padding:0 auto;
+    margin: 0 auto;
+}
+
+Footer{
+    background-color:#612843;
+    color:#E8E8E8;
+    text-align: center;
+    padding: 5%;
+    marging:0 auto;
+    font-family:Gotham, Helvetica Neue, Helvetica, Arial," sans-serif"
+}
+
+header{
+    background-image:url(../medios/bob.png);
+    background-size:cover;
+    heigh: 100%;
+    width: 100%;
+    padding: 5%;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    font-family:Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+    color:#CDCDCD;
+}
+
+header:hover{
+    background-image:url(../medios/bob1.png);
+    background-size:cover;
+    heigh: 100%;
+    width: 100%;
+    padding: 5%;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    font-family:Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+    color:white;
+}
+
+.navprueba{
+    text-decoration: none;
+    padding-right: 20px;
+    padding-left:20px;
+    background-color:#1D162E;
+    color:#DD95B7;
+	
+}
+.navprueba:hover{
+    background-color:#DD95B7;
+    border:ridge;
+	color:#612843;
+	padding-left:2%;
+	padding-right:2%;
+	
+}
+nav{
+    padding-right: 10%;
+    padding-left: 10%;
+    background-color:#1D162E;
+}
+
+h1{
+	background-color:#252e56;
+	color:#ffe3e4;
+	text-align: center;
+}
+
+h2{
+	background-color:#252e56;
+	color:#ffe3e4;
+	text-align: center;
+	padding:2%;
+}
+
+p{
+	text-aling: center;
+	padding-left: 5%;
+	padding-right: 10%;
+	font-family: "Lato Light";
+	font-size: 15px;
+	text-align: justify;
+}
+section{
+	background-color: #8C7698;
+	text-aling:center;
+	padding-bottom:10px;
+}
+ol{
+	background-color:#D9A0E1;
+    padding:0 auto;
+    margin-left: 20%;
+    margin-right:20%
+}
+
+li{
+    padding:0 auto;
+    margin:0 auto;
+}
+
+dl{
+	margin:0 auto;
+    padding:20px;
+}
+
+dd{
+    padding:6px;
+    margin:5px;
+}
+
+table{
+	marging:0 auto;
+	border-color: aqua;
+    position:relative;
+    left: 25%; right: 50%;
+}
+
+td{
+	text-align: left;
+	margin:10%;
+}
+
+img{
+	position:relative;
+	left: 10%; right: 10%;
+}
+
+audio{
+	position:relative;
+	left: 10%;	right:10%;
+}
+
+video{
+	margin:5%;
+	padding:5%;
+}
+
+input[type= "submit"]{
+	background-color:#549FE4;
+	color:#07032A;
+	padding: 2px;
+	margin:2px;
+	border-radius: 6px;
+	font-family: Constantia, Lucida Bright, DejaVu Serif, Georgia, serif;
+}
+
+form{
+	background-color:#766183;
+	margin-left:35%;
+	margin-right:35%;
+	padding:1%;
+	text-align: left;
+	color:#1F0D2B;
+	border-radius: 15px;
+}
+
+.fuentet2 {
+	font-family: abril-fatface;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	text-shadow: 2px 2px 5px #E0DCA1;
+}
+.parrafo1 {
+	font-family: coda;
+	font-style: normal;
+	font-weight: 400;
+	text-align: justify;
+	font-variant: normal;
+	font-size: 12px;
+}
+.fuentet3 {
+	font-family: "Gendis Script Test";
+	font-size: 30px;
+}
+.fuenteweb {
+    font-family: 'Fredoka', sans-serif;
+    color:#DD9BDF
+}
+
+.fuenteweb1{
+    font-family: 'Lobster', cursive;
+    color:#E32F32
+}
+
+.BUAP{
+	font-family: 'Archivo Black', sans-serif;
+}
+
+.buapsub{
+	font-family: 'Crimson Pro', serif;
+	font-size: 40px;
+	padding: 10px;
+}
+
+.buaptext{
+	font-family: 'Open Sans', sans-serif;
+}
